@@ -1,0 +1,7 @@
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn retrofit2.**
+-keep class com.petmorph.ai.data.model.** { *; }
+-keep class com.petmorph.ai.network.dto.** { *; }
+-keepclasseswithmembers class * { @retrofit2.http.* <methods>; }

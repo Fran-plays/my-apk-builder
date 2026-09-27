@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.PetMorphAI" parent="android:Theme.Material.NoActionBar" />
+</resources>
